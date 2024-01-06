@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOFIT-DESIGN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+
+    <!-- ............click to top............... -->
+    <a id="button">
+        <span class="icon-arrow-up"></span>
+        <span>Top</span>
+
+    </a>
+    <!-- ............click to top............... -->
+
+    <!--............. side function ..............-->
+    <span class="relative-icon"><a href="#"><i class="fa-brands fa-chrome"></i></a></span>
+    <span class="buy-now"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></span>
+    <!--............. side function ..............-->
+
+    <!-- ==============nav-bar start============= -->
+    <nav class="header">
+        <div class="container-fluid">
+            <div class="wraper">
+                <div class="logo">
+                    <a href="#">
+                        <img class="main-logo" src="images/white-logo-top-fit.png" alt="logo-img">
+                        <img class="sticky-logo" src="images/dark-logo-top-fit.png" alt="logo-img">
+                    </a>
+                </div>
+                <ul class="menu_bar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Classes</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Elements</a></li>
+                </ul>
+                <div class="cart">
+                    <a class="icon-bag" href="#"></a>
+                    <a class="icon-menu btn_2" href="#"></a>
+                    <button class="icon-menu" id="open_btn" onclick="openMenu()"></button>
+                    <button class="icon-close" id="close_btn" onclick="closeMenu()"></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ==============nav-bar end============= -->
+
+    <!-- =================banner start=============== -->
+    <section class="banner">
+        <div class="banner_slider">
+            <div class="banner_img">
+                <img src="images/home3-slider1-background-img-1.jpg" alt="banner-img">
+                <div class="banner_detail">
+                    <h5>Be Strong & Fit</h5>
+                    <h1>Nutrition <strong>Proteins</strong></h1>
+                    <div class="bnr_btn">
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="banner_img">
+                <img src="images/home3-slider2-background-img-1-1.jpg" alt="banner-img">
+                <div class="banner_detail">
+                    <h5>Be Strong & Fit</h5>
+                    <h1>Build Your <strong>Stamina</strong></h1>
+                    <div class="bnr_btn">
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="banner_img">
+                <img src="images/home3-slider3-background-img-1.jpg" alt="banner-img">
+                <div class="banner_detail">
+                    <h5>Be Strong & Fit</h5>
+                    <h1>Healthy <strong>Lifestyle</strong></h1>
+                    <div class="bnr_btn">
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================banner end=============== -->
+
+    <!-- =================energy start============== -->
+    <section class="great_energy">
+        <div class="container">
+            <div class="titel">
+                <h5>BEST NUTRICION</h5>
+                <h2>GREAT ENERGY</h2>
+            </div>
+            <div class="energy_wrap">
+                <div class="energy_card">
+                    <div class="inner">
+                        <div class="image">
+                            <img src="images/h3-card-slider-img-1.jpg" alt="card-image">
+                        </div>
+                        <span class="quiot_icon"><i class="fa-solid fa-quote-right"></i></span>
+                        <div class="card_detl">
+                            <h3>exellent gym </h3>
+                            <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean viverra, lorem auci elit
+                                consequat amet nibh </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="energy_card">
+                    <div class="inner">
+                        <div class="image">
+                            <img src="images/h3-card-slider-img-5.jpg" alt="card-image">
+                        </div>
+                        <span class="quiot_icon"><i class="fa-solid fa-quote-right"></i></span>
+                        <div class="card_detl">
+                            <h3>best training </h3>
+                            <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean viverra, lorem auci elit
+                                consequat amet nibh </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="energy_card">
+                    <div class="inner">
+                        <div class="image">
+                            <img src="images/h3-card-slider-img-3.jpg" alt="card-image">
+                        </div>
+                        <span class="quiot_icon"><i class="fa-solid fa-quote-right"></i></span>
+                        <div class="card_detl">
+                            <h3>free classes </h3>
+                            <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean viverra, lorem auci elit
+                                consequat amet nibh </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="energy_card">
+                    <div class="inner">
+                        <div class="image">
+                            <img src="images/h3-card-slider-img-4.jpg" alt="card-image">
+                        </div>
+                        <span class="quiot_icon"><i class="fa-solid fa-quote-right"></i></span>
+                        <div class="card_detl">
+                            <h3>exellent gym </h3>
+                            <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean viverra, lorem auci elit
+                                consequat amet nibh </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="energy_card">
+                    <div class="inner">
+                        <div class="image">
+                            <img src="images/h3-card-slider-img-2.jpg" alt="card-image">
+                        </div>
+                        <span class="quiot_icon"><i class="fa-solid fa-quote-right"></i></span>
+                        <div class="card_detl">
+                            <h3>best training </h3>
+                            <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean viverra, lorem auci elit
+                                consequat amet nibh </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="energy_card">
+                    <div class="inner">
+                        <div class="image">
+                            <img src="images/h3-card-slider-img-6.jpg" alt="card-image">
+                        </div>
+                        <span class="quiot_icon"><i class="fa-solid fa-quote-right"></i></span>
+                        <div class="card_detl">
+                            <h3>free classes </h3>
+                            <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean viverra, lorem auci elit
+                                consequat amet nibh </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================energy start============== -->
+
+    <!-- ===============service section================ -->
+    <section class="service">
+        <div class="container">
+            <div class="titel">
+                <h5>SERVICES</h5>
+                <h2>FEATURES</h2>
+            </div>
+            <div class="row wraper">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="srvc_inner">
+                        <div class="icon_png">
+                            <img src="images/h3-icon-1.png" alt="icon">
+                        </div>
+                        <div class="srvc_dtil text-center">
+                            <h3>BODY & MIND</h3>
+                            <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean lorem sollicitudin
+                                nascetur ravida.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="srvc_inner">
+                        <div class="icon_png">
+                            <img src="images/h3-icon-2.png" alt="icon">
+                        </div>
+                        <div class="srvc_dtil text-center">
+                            <h3>HEALTHY LIFE</h3>
+                            <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean lorem sollicitudin
+                                nascetur ravida.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="srvc_inner">
+                        <div class="icon_png">
+                            <img src="images/h3-icon-3.png" alt="icon">
+                        </div>
+                        <div class="srvc_dtil text-center">
+                            <h3>STRATEGIES</h3>
+                            <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean lorem sollicitudin
+                                nascetur ravida.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="srvc_inner">
+                        <div class="icon_png">
+                            <img src="images/h3-icon-4.png" alt="icon">
+                        </div>
+                        <div class="srvc_dtil text-center">
+                            <h3>WORKOUT</h3>
+                            <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean lorem sollicitudin
+                                nascetur ravida.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============service section================ -->
+
+    <!-- ===============member testimonial================= -->
+    <section class="our_member">
+        <div class="container">
+            <div class="member_wrap">
+                <div class="main_box">
+                    <div class="user_img">
+                        <img src="images/testimonials-logo-1.png" alt="user_img">
+                    </div>
+                    <div class="user_detl">
+                        <h3>show up. compete. keep up with top fit.reach yours limits and stay strong.</h3>
+                        <h5>Anna Atkins</h5>
+                        <h6>student</h6>
+                    </div>
+                </div>
+                <div class="main_box">
+                    <div class="user_img">
+                        <img src="images/testimonials-logo-2.png" alt="user_img">
+                    </div>
+                    <div class="user_detl">
+                        <h3>show up. compete. keep up with top fit.reach yours limits and stay strong.</h3>
+                        <h5>Mishel Justin</h5>
+                        <h6>expert</h6>
+                    </div>
+                </div>
+                <div class="main_box">
+                    <div class="user_img">
+                        <img src="images/testimonials-logo-3.png" alt="user_img">
+                    </div>
+                    <div class="user_detl">
+                        <h3>show up. compete. keep up with top fit.reach yours limits and stay strong.</h3>
+                        <h5>Mike Stalone</h5>
+                        <h6>trainer</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============member testimonial================= -->
+
+    <!-- =================product section=============== -->
+    <section class="product">
+        <div class="container-fluid">
+            <div class="titel">
+                <h5>THEY SAY WE ARE THE BEST</h5>
+                <h2>PROTEIN PRODUCTS</h2>
+            </div>
+            <div class="row product_wrap">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-0">
+                    <div class="prdct_inner">
+                        <div class="product_img">
+                            <a href="#"><img src="images/h48-product-1-550x550.jpg" alt=""></a>
+                            <span class="cart_bag"><a class="icon-bag" href="#"></a></span>
+                            <div class="product_detl">
+                                <a href="#">HIGH PROTEIN MEAL</a>
+                                <strong>$25.00</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-0">
+                    <div class="prdct_inner">
+                        <div class="product_img">
+                            <a href="#"><img src="images/h48-product-2-550x550.jpg" alt=""></a>
+                            <span class="cart_bag"><a class="icon-bag" href="#"></a></span>
+                            <figure class="sale-icon">SALE</figure>
+                            <div class="product_detl">
+                                <a href="#">PROTEIN 100%</a>
+                                <strong><b>$30.00</b> $23.00</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-0">
+                    <div class="prdct_inner">
+                        <div class="product_img">
+                            <a href="#"><img src="images/h48-product-3-550x550.jpg" alt=""></a>
+                            <span class="cart_bag"><a class="icon-bag" href="#"></a></span>
+                            <div class="product_detl">
+                                <a href="#">COMPLETE NUTRITION</a>
+                                <strong>$15.00</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 p-0">
+                    <div class="prdct_inner">
+                        <div class="product_img">
+                            <a href="#"><img src="images/h48-product-4-550x550.jpg" alt=""></a>
+                            <span class="cart_bag"><a class="icon-bag" href="#"></a></span>
+                            <figure class="new-icon">NEW</figure>
+                            <div class="product_detl">
+                                <a href="#">ADVANCED CARE</a>
+                                <strong>$25.00</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================product section=============== -->
+
+    <!-- =================form chart section start================= -->
+    <section class="form_chart">
+        <div class="container">
+            <div class="row wraper">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="left">
+                        <h3 class="heading">BMI CALCULATOR CHART</h3>
+                        <table class="rutin_chart">
+                            <thead>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5 - 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25.0 - 29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0 - and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="notice">* <b>BMR</b> Metabolic Rate / <b>BMI</b> Body Mass Index</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="right">
+                        <h3 class="heading">CALCULATE YOUR BMI</h3>
+                        <p>Your BMR calculator generates the number of calories your body burns per day at rest. Your BMR
+                            with activity factor is the number of calories your body burns per day based on the activity
+                            factor you selected.
+                        </p>
+                        <form class="bmi_form">
+                            <input type="text" name="height" placeholder="Height / cm">
+                            <input type="text" name="weigth" placeholder="Weight / kg">
+                            <input type="text" name="age" placeholder="Age">
+                            <select class="gender" name="gender">
+                                <option>Sex</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                            <select class="activy" name="activy">
+                                <option>Select an activity factor:</option>
+                                <option>Little or no Exercise/ desk job</option>
+                                <option>Light exercise/ sports 1 – 3 days/ week</option>
+                                <option>Moderate Exercise, sports 3 – 5 days/ week</option>
+                                <option>Heavy Exercise/ sports 6 – 7 days/ week</option>
+                            </select>
+                            <a class="calc_btn" href="#">CALCULATE</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================form chart section end================= -->
+
+    <!-- ===============pricing plans================== -->
+    <section class="pricing">
+        <div class="container">
+            <div class="titel text-center">
+                <h5>PRICING PLANS</h5>
+                <h2>PRICING PLANS</h2>
+            </div>
+            <div class="row price_wrap">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+                    <div class="price_card">
+                        <div class="top">
+                            <h2><sup>$</sup>33</h2>
+                            <h6>PER ONE</h6>
+                            <h3>ENERGY BURST</h3>
+                        </div>
+                        <ul class="middle">
+                            <li>4 SPECIALTIES</li>
+                            <li>30 TESTS AND TREATMENTS</li>
+                            <li>1 TIME A YEAR</li>
+                        </ul>
+                        <div class="bottom">
+                            <a href="#">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+                    <div class="price_card">
+                        <div class="top">
+                            <h2><sup>$</sup>57</h2>
+                            <h6>PER ONE</h6>
+                            <h3>ENERGY BURST</h3>
+                        </div>
+                        <ul class="middle">
+                            <li>4 SPECIALTIES</li>
+                            <li>30 TESTS AND TREATMENTS</li>
+                            <li>1 TIME A YEAR</li>
+                        </ul>
+                        <div class="bottom">
+                            <a href="#">READ MORE</a>
+                        </div>
+                        <div class="star_icon"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+                    <div class="price_card">
+                        <div class="top">
+                            <h2><sup>$</sup>83</h2>
+                            <h6>PER ONE</h6>
+                            <h3>ENERGY BURST</h3>
+                        </div>
+                        <ul class="middle">
+                            <li>4 SPECIALTIES</li>
+                            <li>30 TESTS AND TREATMENTS</li>
+                            <li>1 TIME A YEAR</li>
+                        </ul>
+                        <div class="bottom">
+                            <a href="#">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============pricing plans================== -->
+
+    <!-- ================our testimonials================== -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="titel text-center">
+                <img class="qut_icon" src="images/quote-icon-img.png" alt="">
+                <h5>PRICING PLANS</h5>
+                <h2>TESTIMONIALS</h2>
+            </div>
+            <div class="row testi_wrap">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+                    <div class="item_box">
+                        <div class="logo_img">
+                            <img src="images/logo-testimonials-img-1.png" alt="">
+                        </div>
+                        <div class="testi_detl">
+                            <h3>FREE CLASSES</h3>
+                            <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem auci elit consequat ipsut sem niuis sed.</p>
+                        </div>
+                        <div class="user_profile">
+                            <img src="images/testimonials-logo-5.png" alt="">
+                            <h4>NINA MORITZ</h4>
+                            <h6>JOURNALIST</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+                    <div class="item_box">
+                        <div class="logo_img">
+                            <img src="images/logo-testimonials-img-2.png" alt="">
+                        </div>
+                        <div class="testi_detl">
+                            <h3>EXELLENT WORK</h3>
+                            <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem auci elit consequat ipsut sem niuis sed.</p>
+                        </div>
+                        <div class="user_profile">
+                            <img src="images/testimonials-logo-4.png" alt="">
+                            <h4>ANNA ATKINS</h4>
+                            <h6>EXPERT</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 text-center">
+                    <div class="item_box">
+                        <div class="logo_img">
+                            <img src="images/logo-testimonials-img-3.png" alt="">
+                        </div>
+                        <div class="testi_detl">
+                            <h3>BEST PROGRAM</h3>
+                            <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem auci elit consequat ipsut sem niuis sed.</p>
+                        </div>
+                        <div class="user_profile">
+                            <img src="images/testimonials-logo-6.png" alt="">
+                            <h4>SARA MORGAN</h4>
+                            <h6>NUTRITIONIST</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================our testimonials================== -->
+
+    <!-- =================choose your protein=========== -->
+    <section class="choose_protein">
+        <div class="container">
+            <div class="titel text-center">
+                <h5>BE STRONG & FIT</h5>
+                <h2>CHOOSE YOUR PROTEIN</h2>
+            </div>
+            <div class="form_box">
+                <form class="form">
+                    <input type="text" name="name" placeholder="Your Full Name">
+                    <input type="email" name="email" placeholder="Your E-Mail Adress">
+                    <input type="tel" name="phone" placeholder="Your Phone Number">
+                    <input type="text" name="name" placeholder="Your City Name">
+                    <textarea name="message" cols="30" rows="10" placeholder="Write Your Message Here..."></textarea>
+                    <input class="send_btn" type="submit" name="btn" value="SEND REQUEST">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- =================choose your protein=========== -->
+
+    <!-- ================marquee logo slider================= -->
+    <section class="logo_slider">
+        <div class="container-fluid">
+            <div class="logo_wrap">
+                <div class="logo_item">
+                    <a href="#"><img src="images/full-client-1.png" alt="logo-img.png"></a>
+                </div>
+                <div class="logo_item">
+                    <a href="#"><img src="images/full-client-2.png" alt="logo-img.png"></a>
+                </div>
+                <div class="logo_item">
+                    <a href="#"><img src="images/full-client-3.png" alt="logo-img.png"></a>
+                </div>
+                <div class="logo_item">
+                    <a href="#"><img src="images/full-client-4.png" alt="logo-img.png"></a>
+                </div>
+                <div class="logo_item">
+                    <a href="#"><img src="images/full-client-5.png" alt="logo-img.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================marquee logo slider================= -->
+
+    <!-- ==================footer start================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row fotr_wrap">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="box_inner">
+                        <h3>TOP FIT</h3>
+                        <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin lorem auci elit consequ.</p>
+                        <span class="phone"><i class="fa-solid fa-phone"></i> 1-677-124-44227</span>
+                        <form class="fotr_form">
+                            <input class="search_bar" type="search" name="search" placeholder="Search...">
+                            <input class="sub_btn" type="submit" name="send" value="">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="box_inner">
+                        <h3>LATEST NEWS</h3>
+                        <div class="total_dtl">
+                            <div class="box_post">
+                                <div class="pro_img">
+                                    <a href="#"><img src="images/blog-post-img-1-150x150.jpg" alt=""></a>
+                                </div>
+                                <div class="text">
+                                    <a href="#">TOTAL BODY WORKOUT</a>
+                                    <span>11.08.2016</span>
+                                </div>
+                            </div>
+                            <div class="box_post">
+                                <div class="pro_img">
+                                    <a href="#"><img src="images/blog-post-img-18-150x150.jpg" alt=""></a>
+                                </div>
+                                <div class="text">
+                                    <a href="#">TOTAL BODY WORKOUT</a>
+                                    <span>11.08.2016</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="box_inner">
+                        <h3>FOLLOW US</h3>
+                        <p>Fusce interdum maximus urna, rutrum tincidunt nulla hendrerit sit amet. Nullam in pulvinar nisi.</p>
+                        <ul class="s_media">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="box_inner">
+                        <h3>NEWSLETTER</h3>
+                        <p>Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin lorem auci elit consequ.</p>
+                        <form class="subscrib">
+                            <input class="sub_srch" type="text" name="search" placeholder="Subscrib to Newsletter...">
+                            <input class="send_btn" type="submit" name="send" value="">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ==================footer end================= -->
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/banner-slider.js"></script>
+    <script src="js/card-section-slider.js"></script>
+    <script src="js/member-slider.js"></script>
+    <script src="js/marquee-slider.js"></script>
+    <script src="js/sticky-nav.js"></script>
+    <script src="js/toogle-nav.js"></script>
+
+
+    <script>
+        var btn = $('#button');
+
+        $(window).scroll(function() {
+        if ($(window).scrollTop() > 100) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+        });
+
+        btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, '300');
+        });
+    </script>
+
+
+</body>
+
+</html>

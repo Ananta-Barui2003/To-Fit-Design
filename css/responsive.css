@@ -1,0 +1,431 @@
+
+/* ======================1024px start=================== */
+@media only screen and (max-width:1024px) {
+    .header .wraper .menu_bar li {
+        padding-left: 30px;
+    }
+    .footer .fotr_wrap .box_inner .box_post .text a {
+        letter-spacing: 0;
+    }
+/* ======================1024px end=================== */
+}
+
+/* ======================991px start=================== */
+@media only screen and (max-width:991px) {
+    #open_btn {
+        display: block;
+    }
+    .header .wraper .menu_bar {
+        display: block;
+        position: fixed;
+        top: 104px;
+        right: -100%;
+        width: 85%;
+        height: 100vh;
+        background: url(../images/toggle-nav-bg.jpg) no-repeat center;
+        background-size: cover;
+        z-index: 1;
+        text-align: center;
+        transition: 0.4s ease-in-out;
+        padding: 60px 40px 40px;
+    }
+    /* .sticky .wraper .menu_bar {
+        top: 114px;
+    } */
+    .header .wraper .menu_bar::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #1c1c1cd1;
+        z-index: -1;
+    }
+    .header .wraper .menu_bar li {
+        padding-left: 0;
+        padding: 20px 0;
+    }
+    .header .wraper .cart .btn_2 {
+        display: none;
+    }
+    .header .wraper .menu_bar li a {
+        color: #fff !important;
+    }
+    .header .wraper .menu_bar li:hover {
+        background: #35964dca;
+    }
+    .header .wraper .menu_bar li:hover a::after {
+        width: 100%;
+    }
+
+
+    #button {
+        right: inherit;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20px;
+    }
+    .banner .banner_slider .prev-arrow {
+        font-size: 40px;
+        left: 10px;
+    }
+    .banner .banner_slider .next-arrow {
+        font-size: 40px;
+        right: 10px;
+    }
+    section .titel h5 {
+        font-size: 18px !important;
+        line-height: 1.2 !important;
+        margin-bottom: 10px !important;
+    }
+    section .titel h2 {
+        font-size: 32px !important;
+        line-height: 1.2 !important;
+        letter-spacing: 5px !important;
+    }
+
+
+    /* .banner .banner_img .banner_detail {
+        left: 20px;
+    } */
+    .banner .banner_img .banner_detail h1 {
+        font-size: 60px;
+        line-height: 1.2;
+        letter-spacing: 15px;
+    }
+    .banner .banner_img .banner_detail h5 {
+        line-height: 1.2;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+    .great_energy {
+        padding: 45px 0 0;
+    }
+    .great_energy .titel {
+        margin-bottom: 10px;
+    }
+
+    .service {
+        padding: 45px 0;
+    }
+    .service .wraper {
+        row-gap: 25px;
+    }
+    .service .titel {
+        margin-bottom: 35px;
+    }
+    .service .wraper .srvc_inner .srvc_dtil {
+        margin-top: 15px;
+    }
+    .service .wraper .srvc_inner .srvc_dtil h3 {
+        font-size: 18px;
+    }
+    .service .wraper .srvc_inner .srvc_dtil p {
+        font-size: 15px;
+        line-height: 1.3;
+    }
+
+    .our_member {
+        padding: 45px 0;
+    }
+    .our_member .member_wrap .slick-list {
+        max-width: 550px;
+    }
+    .our_member .member_wrap .prev-arrow, .our_member .member_wrap .next-arrow {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .our_member .main_box .user_img {
+        max-width: 90px;
+    }
+    .our_member .main_box .user_detl h3 {
+        font-size: 18px;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        margin: 30px 0;
+    }
+    .our_member .main_box .user_detl h5 {
+        line-height: 1.2;
+        margin-bottom: 5px;
+    }
+
+    .product {
+        padding-top: 45px;
+    }
+    .product .titel {
+        margin-bottom: 40px;
+    }
+
+    .form_chart {
+        padding: 45px 0;
+    }
+    .form_chart .wraper {
+        row-gap: 35px;
+    }
+    .form_chart .wraper .left {
+        padding-right: 0;
+    }
+    .form_chart .wraper .right {
+        padding-left: 0;
+    }
+    .form_chart .wraper .left .heading {
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .form_chart .wraper .left .notice {
+        line-height: 1.2;
+        margin-top: 10px;
+    }
+    .form_chart .wraper .left .rutin_chart thead tr th {
+        font-size: 16px;
+    }
+    .form_chart .wraper .right .heading {
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .form_chart .wraper .right p {
+        font-size: 15px;
+        line-height: 1.4;
+        text-align: center;
+    }
+    .form_chart .wraper .right .bmi_form .calc_btn {
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .pricing {
+        padding: 45px 0;
+    }
+    .pricing .price_wrap {
+        row-gap: 25px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .testimonials {
+        padding: 45px 0;
+    }
+    .testimonials .titel {
+        margin-bottom: 30px;
+    }
+    .testimonials .titel .qut_icon {
+        width: 25px;
+    }
+    .testimonials .titel h5 {
+        margin-top: 30px;
+    }
+    .testimonials .testi_wrap {
+        justify-content: center;
+        row-gap: 25px;
+    }
+
+    .choose_protein {
+        padding-top: 140px;
+        padding-bottom: 45px;
+    }
+
+    .logo_slider {
+        padding: 40px 0;
+    }
+    .logo_slider .logo_wrap .logo_item {
+        max-width: 220px;
+    }
+
+    .footer {
+        padding: 45px 0;
+    }
+    .footer .fotr_wrap {
+        row-gap: 35px;
+    }
+    .footer .fotr_wrap .box_inner h3 {
+        line-height: 1.2;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+    .footer .fotr_wrap .box_inner p {
+        font-size: 14px;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+
+    
+/* ======================991px end=================== */
+}
+
+/* ======================767px start=================== */
+@media only screen and (max-width:767px) {
+    section .titel h5 {
+        font-size: 15px !important;
+        line-height: 1.2 !important;
+        margin-bottom: 10px !important;
+    }
+    section .titel h2 {
+        font-size: 26px !important;
+        line-height: 1.2 !important;
+        letter-spacing: 5px !important;
+    }
+    .banner .banner_img .banner_detail h5 {
+        font-size: 16px;
+    }
+    .banner .banner_img .banner_detail h1 {
+        font-size: 45px;
+        line-height: 1.2;
+        letter-spacing: 10px;
+    }
+    .great_energy .energy_wrap .energy_card {
+        padding: 0;
+    }
+    .great_energy .energy_wrap .inner .quiot_icon i {
+        padding: 20px 21px;
+    }
+    .great_energy .energy_wrap .card_detl {
+        padding: 15px 15px 20px;
+    }
+    .great_energy .energy_wrap .card_detl h3 {
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 8px;
+    }
+    .service .wraper .srvc_inner .icon_png {
+        max-width: 60px;
+        height: 60px;
+    }
+    .our_member .main_box .user_detl h3 {
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .product .product_wrap .product_img .sale-icon, .new-icon {
+        left: 30px;
+    }
+    .product .product_wrap .product_img .product_detl {
+        padding: 15px 15px 25px;
+    }
+    .product .product_wrap .product_img .product_detl a, .product .product_wrap .product_img .product_detl strong {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .choose_protein .form_box .form input, .choose_protein .form_box .form textarea {
+        width: 100%;
+    }
+    .footer .fotr_wrap .box_inner {
+        text-align: center;
+    }
+    .footer .fotr_wrap .box_inner .fotr_form {
+        max-width: 80%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .footer .fotr_wrap .box_inner .box_post {
+        justify-content: center;
+    }
+    .footer .fotr_wrap .box_inner .box_post .text {
+        text-align: left;
+    }
+    .footer .fotr_wrap .box_inner .s_media {
+        justify-content: center;
+    }
+    #button span:first-child {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+    #button span {
+        font-size: 12px;
+    }
+/* ======================767px end=================== */
+}
+
+/* ======================575px start=================== */
+@media only screen and (max-width:575px) {
+    .banner .banner_img .banner_detail {
+        left: 10px;
+        text-align: center;
+    }
+    .banner .banner_img img {
+        height: 300px;
+        object-fit: cover;
+    }
+    .form_chart .wraper .right .bmi_form input {
+        width: 100%;
+    }
+    .form_chart .wraper .right .bmi_form .gender, .form_chart .wraper .right .bmi_form .activy {
+        width: 100%;
+    }
+/* ======================575px end=================== */
+}
+
+/* ======================480px start=================== */
+@media only screen and (max-width:480px) {
+    #button {
+        width: 40px;
+        height: 40px;
+    }
+    #button span:last-child {
+        display: none;
+    }
+    #button span:first-child {
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+
+    .header .wraper .logo {
+        max-width: 45px;
+    }
+    .header .wraper .cart button {
+        font-size: 22px;
+    }
+    .header .wraper .cart a {
+        font-size: 20px;
+    }
+    .header .wraper .menu_bar {
+        top: 90px;
+    }
+    .sticky .wraper .menu_bar {
+        top: 91px;
+    }
+    .banner .banner_img img {
+        height: 260px;
+        object-fit: cover;
+    }
+    .banner .banner_img .banner_detail h1 {
+        font-size: 32px;
+    }
+    .banner .banner_slider .prev-arrow, .banner .banner_slider .next-arrow {
+        font-size: 25px;
+    }
+    .banner .banner_slider .next-arrow:hover {
+        right: 0;
+    }
+    .banner .banner_slider .prev-arrow:hover {
+        left: 0;
+    }
+    .banner .banner_img .banner_detail .bnr_btn a {
+        font-size: 10px;
+        padding: 8px 20px;
+    }
+    .great_energy .energy_wrap .card_detl p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .form_chart .wraper .left .rutin_chart thead tr th {
+        font-size: 14px;
+        padding: 20px 10px;
+    }
+    .form_chart .wraper .left .rutin_chart tbody tr td {
+        padding: 20px 10px;
+    }
+    .pricing .price_wrap .price_card .top h2 {
+        font-size: 45px;
+        line-height: 1.2;
+    }
+    .pricing .price_wrap .price_card .top h2 sup {
+        top: 15px;
+    }
+/* ======================480px end=================== */
+}
